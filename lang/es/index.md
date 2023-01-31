@@ -11,9 +11,9 @@ Resumen
 
 Dado un número de versión MAYOR.MENOR.PARCHE, se incrementa:
 
-1. la versión MAYOR cuando realizas un cambio incompatible en el API,
-2. la versión MENOR cuando añades funcionalidad que compatible con versiones anteriores, y
-3. la versión PARCHE cuando reparas errores compatibles con versiones anteriores.
+1. La versión MAYOR cuando realizas un cambio incompatible en el API,
+2. La versión MENOR cuando añades funcionalidad compatible con versiones anteriores, y
+3. La versión PARCHE cuando reparas errores compatibles con versiones anteriores.
 
 Hay disponibles etiquetas para prelanzamiento y metadata de compilación como extensiones al formato MAYOR.MENOR.PARCHE.
 
@@ -143,8 +143,8 @@ Forma Gramatical Backus–Naur para Versiones Válidas SemVer
           | "y" | "z"
 ```
 
-Porqué usar Versionado Semántico
----------------------------------
+¿Por qué usar Versionado Semántico?
+-----------------------------------
 
 Esto no es una idea nueva o revolucionaria. De hecho, probablemente ya tengas algo parecido a ésto. El problema es que "parecido" no significa suficientemente bueno. Sin el cumplimiento de alguna especie de especificación formal, los números de versión son esencialmente inútiles para el manejo de dependencias. Dándole un nombre y una definición clara a las ideas anteriores, se hace fácil comunicar tus intenciones a los usuarios de tu software. Una vez estas intenciones son claras y flexibles (pero no tanto) las especificaciones de dependencia finalmente se pueden generar.
 
@@ -191,7 +191,7 @@ Usa tu mejor juicio. Si tienes una gran audiencia que será drásticamente impac
 
 ### ¿Cómo debería manejar funcionalidad obsoleta?
 
-Desechar funcionalidad existente es algo normal en el desarrollo de software y es usualmente requerido para progresar. Cuando desechas parte de tu API público, deberías hacer dos cosas: (1) actualizar tu documentación para avisar a tus usuarios sobre el cambio, (2) lanzar una nueva versión menor mateniendo la obsolescencia en su lugar. Antes que remuevas completamente la funcionalidad en una nueva versión mayor debería haber al menos una versión menor anterior que contenga la obsolescencia para que todos los usuarios puedan planear una transición sin sobresaltos al nuevo API.
+Desechar funcionalidad existente es algo normal en el desarrollo de software y es usualmente requerido para progresar. Cuando desechas parte de tu API público, deberías hacer dos cosas: (1) actualizar tu documentación para avisar a tus usuarios sobre el cambio, (2) lanzar una nueva versión menor manteniendo la obsolescencia en su lugar. Antes que remuevas completamente la funcionalidad en una nueva versión mayor debería haber al menos una versión menor anterior que contenga la obsolescencia para que todos los usuarios puedan planear una transición sin sobresaltos al nuevo API.
 
 ### ¿Tiene SemVer una longitud límite en el texto de la versión?
 
@@ -234,4 +234,4 @@ Esta traducción ha sido realizada por [Italo Baeza Cabrera](https://italobc.com
 Licencia
 --------
 
-[Creative Commons ― CC BY 3.0](http://creativecommons.org/licenses/by/3.0/) ([en español])[https://creativecommons.org/licenses/by/3.0/deed.es]
+[Creative Commons ― CC BY 3.0](http://creativecommons.org/licenses/by/3.0/) ([en español](https://creativecommons.org/licenses/by/3.0/deed.es))
